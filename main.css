@@ -3,21 +3,24 @@
     margin: 0;
     padding: 0;
   }
-
 header li {
     display: inline;
 }
-
 .container {
     width: 1366px;
     margin: 0 auto;
 }
-
 .articles {
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-between;
 }
-.articles article img {
+.articles p{
+    text-align: justify;
+}
+.articles article img{
     height: 180px;
+}
+.articles .article {
+    width: 30%;
 }
